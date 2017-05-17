@@ -175,4 +175,13 @@
     <string name="permission_desc_bind_data_consumer">Allows an app to consume the data published by DashClock extensions</string>
     <string name="permission_label_bind_data_consumer">Request consume DashClock extension data</string>
 
+
+    <!-- Test -->
+    <string name="test_app_name">Example Extension for DashClock</string>
+    <string name="test_extension_title">Example extension</string>
+    <string name="test_extension_description">Displays a nice, friendly hello message.</string>
+    <string name="test_pref_name_title">Your name</string>
+    <string name="test_pref_name_default">John Smith</string>
+    <string name="test_title_settings">Example Extension Settings</string>
+
 </resources>

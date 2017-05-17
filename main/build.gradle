@@ -87,4 +87,5 @@ android {
             versionNameSuffix " Debug Beta " + versionProps['betaNumber']
         }
     }
+    buildToolsVersion '25.0.0'
 }
