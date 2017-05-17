@@ -1,7 +1,7 @@
 // Top-level build file where you can add configuration options common to all sub-projects/modules.
 
 ext.buildToolsVersion = "23.0.2"
-ext.minSdkVersion = 17
+ext.minSdkVersion = 21
 ext.targetSdkVersion = 21
 ext.compileSdkVersion = 23
 
