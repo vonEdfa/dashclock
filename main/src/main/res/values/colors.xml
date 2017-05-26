@@ -20,6 +20,8 @@
     <color name="theme_accent_dark">#00A992</color>
     <color name="theme_accent">#00BFA5</color>
 
+    <color name="text_shadow">#7F000000</color>
+
     <color name="extension_item_color">#c000</color>
 
     <color name="configure_light_background">#fafafa</color>

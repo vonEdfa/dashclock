@@ -165,6 +165,10 @@
         <item name="android:textStyle">bold</item>
         <item name="android:textSize">@dimen/extension_collapsed_text_size_single_line</item>
         <item name="android:textAllCaps">true</item>
+        <item name="android:shadowColor">@color/text_shadow</item>
+        <item name="android:shadowDx">1</item>
+        <item name="android:shadowDy">1</item>
+        <item name="android:shadowRadius">2</item>
     </style>
 
     <style name="ExtensionData.Text.ExpandedTitle">

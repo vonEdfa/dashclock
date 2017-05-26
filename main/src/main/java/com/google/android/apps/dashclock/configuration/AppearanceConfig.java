@@ -45,6 +45,7 @@ public class AppearanceConfig {
     static final String PREF_HOMESCREEN_BACKGROUND_COLOR = "pref_homescreen_background_color";
     static final String PREF_HOMESCREEN_BACKGROUND_OPACITY = "pref_homescreen_background_opacity";
     static final String PREF_HOMESCREEN_HIDE_CLOCK = "pref_homescreen_hide_clock";
+    static final String PREF_HOMESCREEN_ENABLE_SHADOW = "pref_homescreen_enable_shadow";
 
     static final String PREF_LOCKSCREEN_FOREGROUND_COLOR = "pref_lockscreen_foreground_color";
     static final String PREF_LOCKSCREEN_BACKGROUND_COLOR = "pref_lockscreen_background_color";
@@ -126,6 +127,11 @@ public class AppearanceConfig {
     public static boolean isClockHiddenOnLockScreen(Context context) {
         return PreferenceManager.getDefaultSharedPreferences(context)
                 .getBoolean(PREF_LOCKSCREEN_HIDE_CLOCK, false);
+    }
+
+    public static boolean isForegroundShadowEnabledOnHomeScreen(Context context) {
+        return PreferenceManager.getDefaultSharedPreferences(context)
+                .getBoolean(PREF_HOMESCREEN_ENABLE_SHADOW, false);
     }
 
     public static int getForegroundColor(Context context, int target) {

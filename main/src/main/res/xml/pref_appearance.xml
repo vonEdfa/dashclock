@@ -59,6 +59,12 @@
             app:choices="@array/default_color_choice_values" />
 
         <CheckBoxPreference
+            android:key="pref_homescreen_enable_shadow"
+            android:title="Enable shadow"
+            android:summary="Add shadow to icons and text"
+            android:defaultValue="false" />
+
+        <CheckBoxPreference
             android:key="pref_homescreen_hide_clock"
             android:title="@string/pref_hide_clock_title"
             android:summary="@string/pref_hide_clock_description"

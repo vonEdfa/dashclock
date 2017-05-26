@@ -24,16 +24,24 @@
     <string name="pref_background_opacity_title">Background visibility</string>
     <string-array name="pref_background_opacity_display_names">
         <item>Fully transparent</item>
+        <item>13% visible</item>
         <item>25% visible</item>
+        <item>38% visible</item>
         <item>50% visible</item>
+        <item>63% visible</item>
         <item>75% visible</item>
+        <item>88% visible</item>
         <item>Fully opaque</item>
     </string-array>
     <string-array name="pref_background_opacity_values" translatable="false">
         <item>0</item>
+        <item>13</item>
         <item>25</item>
+        <item>38</item>
         <item>50</item>
+        <item>63</item>
         <item>75</item>
+        <item>88</item>
         <item>100</item>
     </string-array>
     <string name="pref_foreground_color_description">The color of text and icons</string>
